@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const prestabancoBackendServer = import.meta.env.VITE_PRESTABANCO_BACKEND_SERVER;
+const prestabancoBackendServer = "104.40.59.254";
 const prestabancoBackendPort = import.meta.env.VITE_PRESTABANCO_BACKEND_PORT;
 
 console.log(prestabancoBackendServer)
