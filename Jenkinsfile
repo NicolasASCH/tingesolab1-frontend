@@ -10,7 +10,7 @@ pipeline {
                     bat 'npm install' // Usa 'bat' para Windows o 'sh' para Linux/Mac
                 }
             }
-        }
+        
 
         stage('Build Project') {
             steps {
@@ -38,5 +38,5 @@ pipeline {
                 }
             }
         }
-    
+    }
 }
