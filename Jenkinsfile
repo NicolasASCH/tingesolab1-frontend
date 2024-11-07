@@ -17,7 +17,7 @@ pipeline {
                 bat 'npm run build' // Genera la versión de producción del frontend
                 }
             }
-        }
+        
 
         stage('Build Docker Image') {
             steps {
@@ -26,7 +26,7 @@ pipeline {
                     }
                 }
             }
-        }
+        
 
         stage('Push Image to Docker Hub') {
             steps {
@@ -38,5 +38,5 @@ pipeline {
                 }
             }
         }
-    }
+    
 }
