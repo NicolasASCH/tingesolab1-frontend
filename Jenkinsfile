@@ -32,7 +32,7 @@ pipeline {
             steps {
                 script {
                     withCredentials([string(credentialsId: 'tingeso', variable: 'dhpsw')]) {
-                        bat 'docker login -u nickasch -p %dhpsw%'
+                        bat 'docker login -u nickasch -p SIMPcro1412$'
                     }
                     bat 'docker push nickasch/prestabanco-frontend:latest'
                 }
