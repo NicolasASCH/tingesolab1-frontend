@@ -69,7 +69,7 @@ const Simulation = () => {
                 required
             />
             <Button type="submit" variant="contained" color="primary">
-                Simular Crédito
+                Simular Cuota
             </Button>
 
             {simulationResult !== null && (
